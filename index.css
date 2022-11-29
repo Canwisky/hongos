@@ -1,0 +1,171 @@
+html {
+    background: linear-gradient(
+        115deg,
+        rgba(72, 198, 172, 0.8),
+        rgba(137, 74, 172, 0.7)
+      ),
+      url(https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEjkSa6ccEVL7SOAU7Ok0Z9mLBRhGjzZjTprjYAgFjeM0m0tndF3xm_HUNVM6WKfvugRYUHa6UQncYi6hAec21rc2v72Q698vyDL4OI9BCRV1kpL800S3_lbT_7CQpInfJ0idpXAT2zp3ODFeO2QjTHkUF64dTMwbB7jk0zJCRs9ff7vGgeh7smcNhrKgg/w945-h600-p-k-no-nu/image832.png) no-repeat center fixed;
+    background-size: cover;
+  }
+  body {
+    margin: 10px, 10px, 10px, 10px;
+    height: 100%;
+    width: 100%;
+    z-index: -1;
+    background-image: linear-gradient(
+        115deg,
+        rgba(72, 198, 172, 0.8),
+        rgba(137, 74, 172, 0.7)
+      ),
+      url(https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEjkSa6ccEVL7SOAU7Ok0Z9mLBRhGjzZjTprjYAgFjeM0m0tndF3xm_HUNVM6WKfvugRYUHa6UQncYi6hAec21rc2v72Q698vyDL4OI9BCRV1kpL800S3_lbT_7CQpInfJ0idpXAT2zp3ODFeO2QjTHkUF64dTMwbB7jk0zJCRs9ff7vGgeh7smcNhrKgg/w945-h600-p-k-no-nu/image832.png) no-repeat center fixed;
+    background-size: cover;
+  }
+  
+  .nav-bar {
+    border: 5px solid #edde83;
+    display: flex;
+    justify-content: center;
+    justify-self: center;
+    width: 50%;
+    background-color: rgba(237,222,131,0.4);
+    border-radius: 20px;
+    padding: 0%;
+  }
+
+  .nav-bar li {
+    color: white;
+    padding: 7px;
+    font-family: arial;
+    text-align: center;
+    font-size: 1.89em;
+    list-style-type: none;
+    box-sizing: border-box;
+    flex: 1;
+    width: auto;
+    overflow: hidden;
+  }
+   
+  .nav-bar  li  a {
+    text-decoration: none;
+    color: white;
+    font-family: arial;
+    text-align: center;
+    width: 100px;
+  }
+  
+  li:hover {
+    background-color: rgba(237,222,131,0.4);
+    border-radius: 20px;
+  }
+
+  .carrito {
+    padding: 0%;
+    display: inline;
+    position: absolute;
+    right: 2%;
+    top: 2%;
+    border: 5px solid #edde83;
+    background-color: rgba(237,222,131,0.4);
+    border-radius: 20px;
+  }
+
+  .carrito :hover {
+    background-color: rgba(237,222,131,0.4);
+  }
+
+  .carritosvg {
+    overflow: hidden;
+    padding:3px;
+  }
+
+  .cartAmount {
+    top: 0;
+    right: 0;
+    width: fit-content;
+    position: absolute;
+    padding: 2px;
+    background-color: red;
+    color: antiquewhite;
+    border-radius: 8px;
+  }
+  
+  @media all and (max-width: 600px) {
+    .nav-bar {
+      flex-wrap: wrap;
+    }
+    .nav-bar > li {
+      flex: 1 1 50%;
+    }
+  
+  }
+  
+  /* termina estilo de barra de navegación */
+  
+  
+  /* comienza estilo de grid container */
+  
+  .container {
+    width: 97%;
+    padding: 10px, 0px, 10px;
+    display: grid;
+    position: absolute;
+    grid-gap: 10px;
+    grid-template-columns: repeat(auto-fill, minmax(300px, 1fr));
+    grid-auto-rows: 400px;
+  }
+  
+  .container > div {
+    border: 5px solid #edde83;
+    border-radius: 20px;
+    background-image: linear-gradient(
+        115deg,
+        rgba(72, 198, 172, 0.8),
+        rgba(137, 74, 172, 0.7)
+      ),
+  }
+  
+  .container > div > h1 {
+    color: white;
+    font-family: arial;
+    text-align: center;
+    padding: 0,5em;
+    font-size: 1.5em;
+  }
+  
+  .fotos {
+    display: block;
+    width: 200px;
+    border: 4px solid rgba(237,222,131,0.8);
+    border-radius: 10px;
+    margin: auto;
+    box-shadow: 5px 5px 25px rgb(237,222,131);
+  }
+  
+  .agregar {
+    font-family: arial;
+    color: rgb(255, 251, 251);
+    font-size: 1.5em;
+    background-color: rgba(237,222,131,0.4);
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    border: 2px solid #edde83;
+    border-radius: 10px;
+    margin: auto;
+    padding: 10px;
+    margin-top: 20px;
+    display: block;
+  }
+
+  .agregar:hover {
+    background-color:	rgba(197, 126, 179, 0.4);
+    outline: 0;
+  }
+  
+  @media all and (max-width: 400px){
+    
+  }
+      
+  @media all and (max-width: 600px) {
+  
+  }
+  
+      

@@ -141,7 +141,7 @@ html {
     box-shadow: 5px 5px 25px rgb(237,222,131);
   }
   
-  .agregar {
+  button {      /* aqui estaba agregar, ahora se llama button */
     font-family: arial;
     color: rgb(255, 251, 251);
     font-size: 1.5em;
@@ -155,7 +155,7 @@ html {
     display: block;
   }
 
-  .agregar:hover {
+  button:hover {  
     background-color:	rgba(197, 126, 179, 0.4);
     outline: 0;
   }
